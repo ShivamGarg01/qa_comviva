@@ -1,0 +1,24 @@
+Test Case: Check for a call made to verify if order is confirmed
+
+    Test ID: ACO007
+
+    Test Summary: Verify that a user successfully receives a confirmation call after placing a Cash on Delivery order.
+
+    Preconditions:
+	User has verified account on amazon
+        User is logged in.
+        Order is placed
+
+    Test Steps:
+        Fetch the number entered by user.
+	Check if the user is receiving the call.
+	Ask user if the order is placed by him/her.
+	The response is recorded.
+	Call is disconnected Successfully. 
+	Order should be dispached (if yes) or must be cancelled (if no).
+
+    Browser: Chrome, Firefox, Safari
+
+    Test Data: Valid user phone number, response in yes or no.
+
+    Expected Data: Order dispached/cancelled (if yes/no respectively) message is displayed, and the order is visible in track order option. The system should acknowledge that payment will be made on delivery.
