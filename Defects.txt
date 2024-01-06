@@ -1,0 +1,64 @@
+Defect ID - SG1_D01
+
+Descriptive defect name and type - No verification in login
+
+Defect severity - Critical 
+
+Defect priority - High
+
+Defect status - Open
+
+Detailed description, including the steps necessary to reproduce the defect 
+- While proceeding with login, the system should check username and password but any value being passed is working and the user gets logged in. Some verfication method needs to be implemented.
+
+Screen prints, logs, etc., that will aid the developer in the resolution process
+Steps
+
+1. go to login
+2. enter any random username and password
+3. click on login
+
+
+===========================================================================================================================
+
+
+Defect ID - SG1_D02
+
+Descriptive defect name and type - Side navigation bar
+
+Defect severity - Meduium 
+
+Defect priority - Medium
+
+Defect status - Open
+
+Detailed description, including the steps necessary to reproduce the defect 
+- A navigation bar the side of the page should be working but it does not
+
+Screen prints, logs, etc., that will aid the developer in the resolution process
+Steps
+
+1. go to navigation bar on the side of page
+2. click on any option (none of them work)
+
+
+===========================================================================================================================
+
+
+Defect ID - SG1_D03
+
+Descriptive defect name and type - No Sort Option
+
+Defect severity - Minor
+
+Defect priority - Low
+
+Defect status - Open
+
+Detailed description, including the steps necessary to reproduce the defect 
+- on the recent transactions section of the webpage there is no option to sort or filter out the content displayed in the table.
+
+Screen prints, logs, etc., that will aid the developer in the resolution process
+Steps
+
+1. go to recent transaction section there is no sort option visible.
